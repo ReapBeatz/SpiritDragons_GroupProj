@@ -1,7 +1,5 @@
 {
   "dependencies": {
-<<<<<<< Updated upstream
-=======
     "com.unity.collab-proxy": {
       "version": "2.0.5",
       "depth": 0,
@@ -148,7 +146,6 @@
       },
       "url": "https://packages.unity.com"
     },
->>>>>>> Stashed changes
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

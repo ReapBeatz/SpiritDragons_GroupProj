@@ -44,7 +44,10 @@ public class handBossAI : MonoBehaviour, IDamage
     void Update()
     {
         facePlayer();
-        if (canSeePlayer()) ;
+        if (canSeePlayer())
+        {
+
+        };
     }
 
 

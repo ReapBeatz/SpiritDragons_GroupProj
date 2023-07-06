@@ -20,6 +20,7 @@ public class gameManager : MonoBehaviour
     public GameObject loseMenu;
     public TextMeshProUGUI enemiesRemainingText;
     public Image playerHPBar;
+    public Image playerStamBar;
     public GameObject playerFlashDamagePanel;
 
     public int enemiesRemaining;

@@ -10,7 +10,12 @@ public class playerController : MonoBehaviour, IDamage
 
     [Header("-----Player Stats-----")]
     [Range(0, 10)][SerializeField] int HP;
-    [Range(1, 7)][SerializeField] float playerSpeed;
+    [SerializeField] float currentPlayerSpeed;
+    //[SerializeField] float playerSpeed;
+    float playerSpeedOrig;
+    [SerializeField] float sprintCharge;
+    [SerializeField]float sprintSpeed;
+    float sprintChargeOrig;
     [Range(10, 20)][SerializeField] float jumpHeight;
     [SerializeField] float gravityValue;
     [Range(1, 3)][SerializeField] int jumpsMax;
@@ -29,7 +34,10 @@ public class playerController : MonoBehaviour, IDamage
     // Start is called before the first frame update
     void Start()
     {
+        sprintSpeed = currentPlayerSpeed * 2;
+        playerSpeedOrig = currentPlayerSpeed;
         HPOrig = HP;
+        sprintChargeOrig = sprintCharge;
         spawnPlayer();
     }
 
@@ -41,6 +49,24 @@ public class playerController : MonoBehaviour, IDamage
             if (Input.GetButton("Shoot") && !isShooting)
             {
                 StartCoroutine(shoot());
+            }
+            if (Input.GetKey(KeyCode.LeftShift) && sprintCharge > 0)
+            {
+                currentPlayerSpeed = sprintSpeed;
+                sprintCharge -= .01f;
+                updatePlayerUI();
+            }
+            else
+            {
+                if (sprintCharge < sprintChargeOrig)
+                {
+                    sprintCharge += 1 * Time.deltaTime;
+                    updatePlayerUI();
+                }
+            }
+            if (Input.GetKeyUp(KeyCode.LeftShift) || sprintCharge == 0)
+            {
+                currentPlayerSpeed = playerSpeedOrig;
             }
         }
     }
@@ -57,7 +83,7 @@ public class playerController : MonoBehaviour, IDamage
         move = transform.right * Input.GetAxis("Horizontal") +
                transform.forward * Input.GetAxis("Vertical");
         //when doing movement it's always best to use Time.deltaTime to normalize between varying framerates
-        controller.Move(move * Time.deltaTime * playerSpeed);
+        controller.Move(move * Time.deltaTime * currentPlayerSpeed);
 
 
         // Changes the height position of the player..
@@ -104,6 +130,7 @@ public class playerController : MonoBehaviour, IDamage
     public void updatePlayerUI()
     {
         gameManager.instance.playerHPBar.fillAmount = (float)HP / HPOrig;
+        gameManager.instance.playerStamBar.fillAmount = sprintCharge / sprintChargeOrig;
     }
 
     public void spawnPlayer()

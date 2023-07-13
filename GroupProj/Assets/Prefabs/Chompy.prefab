@@ -286,7 +286,7 @@ Transform:
   m_Children:
   - {fileID: 2146623338044449025}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &975065433325543095
 MonoBehaviour:
@@ -309,7 +309,7 @@ MonoBehaviour:
   roamTimer: 3
   roamDist: 15
   attackRate: 2
-  damage: 2
+  damage: 4
 --- !u!195 &6927579017115854034
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 3.67
-  m_Speed: 3.5
+  m_Speed: 8
   m_Acceleration: 60
   avoidancePriority: 50
   m_AngularSpeed: 600
@@ -372,5 +372,5 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 20
+  m_Radius: 25
   m_Center: {x: 0, y: 0, z: 0}

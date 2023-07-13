@@ -34,8 +34,8 @@ public class playerController : MonoBehaviour, IDamage
     // Start is called before the first frame update
     void Start()
     {
-        sprintSpeed = currentPlayerSpeed * 2;
         playerSpeedOrig = currentPlayerSpeed;
+        sprintSpeed = currentPlayerSpeed * 2;
         HPOrig = HP;
         sprintChargeOrig = sprintCharge;
         spawnPlayer();

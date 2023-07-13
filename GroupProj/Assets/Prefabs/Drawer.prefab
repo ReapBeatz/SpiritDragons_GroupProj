@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5448562163366232245}
   - component: {fileID: 5784146289658459156}
   - component: {fileID: 2866616205216032643}
+  - component: {fileID: 8698929582178159898}
   m_Layer: 0
   m_Name: TopLShellf
   m_TagString: Untagged
@@ -84,6 +85,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8698929582178159898
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301534866814912635}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.021167777, y: 0.02161761, z: 0.11567576}
+  m_Center: {x: 0.0005838885, y: -0.0000025425102, z: 0.043441597}
 --- !u!1 &3652688523458473474
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,6 +117,7 @@ GameObject:
   - component: {fileID: 7573439347630727175}
   - component: {fileID: 2238571952199868045}
   - component: {fileID: 3214488871171661616}
+  - component: {fileID: 3714913815342290775}
   m_Layer: 0
   m_Name: Drawer
   m_TagString: Untagged
@@ -167,6 +190,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3714913815342290775
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3652688523458473474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18307626, y: 0.4022936, z: 0.019999998}
+  m_Center: {x: -0.000000007450581, y: 0.023656439, z: 0.0020328427}
 --- !u!1 &4954694261999385800
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,6 +222,7 @@ GameObject:
   - component: {fileID: 6539239896337688004}
   - component: {fileID: 8102378421258019050}
   - component: {fileID: 670919321839303488}
+  - component: {fileID: 8507918911611885758}
   m_Layer: 0
   m_Name: BotLShelf
   m_TagString: Untagged
@@ -251,6 +296,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8507918911611885758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4954694261999385800}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.021167777, y: 0.02161761, z: 0.11567576}
+  m_Center: {x: 0.0005838885, y: -0.0000025387849, z: 0.043441582}
 --- !u!1 &7084073618657063592
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,6 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8860231795417639208}
+  - component: {fileID: 218279103510052768}
   m_Layer: 0
   m_Name: Drawer
   m_TagString: Untagged
@@ -285,8 +352,29 @@ Transform:
   - {fileID: 5448562163366232245}
   - {fileID: 5941392763266675245}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &218279103510052768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084073618657063592}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8522722547849351075
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,6 +386,7 @@ GameObject:
   - component: {fileID: 5941392763266675245}
   - component: {fileID: 7530607740141616740}
   - component: {fileID: 299634987430059051}
+  - component: {fileID: 1587567089007853892}
   m_Layer: 0
   m_Name: TopRShellf
   m_TagString: Untagged
@@ -371,6 +460,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1587567089007853892
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522722547849351075}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.021167777, y: 0.02161761, z: 0.11567576}
+  m_Center: {x: 0.0005838885, y: -0.0000025406475, z: 0.043441597}
 --- !u!1 &9059793745978721964
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +492,7 @@ GameObject:
   - component: {fileID: 5808371857776300872}
   - component: {fileID: 5897347661665133192}
   - component: {fileID: 4864401066529244426}
+  - component: {fileID: 6638754766063074405}
   m_Layer: 0
   m_Name: BotRShelf
   m_TagString: Untagged
@@ -455,3 +566,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6638754766063074405
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9059793745978721964}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.021167777, y: 0.02161761, z: 0.11567576}
+  m_Center: {x: 0.0005838885, y: -0.0000025406475, z: 0.043441582}

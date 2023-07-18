@@ -25,6 +25,9 @@ public class meleeAI : MonoBehaviour, IDamage
     float lastAttackTime = 0;
     //[SerializeField] Transform shootPos;
 
+    [Header("----- Audio -----")]
+    //[SerializeField] AudioClip Sounds;
+
     bool playerInRange;
     Vector3 playerDir;
     float angleToPlayer;
@@ -33,6 +36,9 @@ public class meleeAI : MonoBehaviour, IDamage
     Vector3 startingPos;
     bool destinationChosen;
     GameObject player;
+
+    public AudioSource soundPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -98,6 +104,7 @@ public class meleeAI : MonoBehaviour, IDamage
                 if (agent.remainingDistance >= agent.stoppingDistance)
                 {
                     facePlayer();
+                    soundPlayer.Play();
                 }
 
                 if (!isAttacking && agent.remainingDistance <= agent.stoppingDistance)
@@ -161,4 +168,7 @@ public class meleeAI : MonoBehaviour, IDamage
         yield return new WaitForSeconds(0.1f);
         model.material.color = Color.black;
     }
+
+   
+
 }

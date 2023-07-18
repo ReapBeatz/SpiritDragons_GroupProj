@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6593c04928a1ed14a905c73d37ffddab, type: 3}
   m_Name: Revolver
   m_EditorClassIdentifier: 
-  shootDist: 0
-  fireRate: 0
-  shootDmg: 0
-  ammoCur: 0
-  ammoMax: 0
-  model: {fileID: 0}
+  shootDist: 100
+  fireRate: 0.25
+  shootDmg: 6
+  ammoCur: 5
+  ammoMax: 5
+  model: {fileID: 6507023476880700589, guid: 0b5bc30b712f8b54696cc2819170fb9c, type: 3}

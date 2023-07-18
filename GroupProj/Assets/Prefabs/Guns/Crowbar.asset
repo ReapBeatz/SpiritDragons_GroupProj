@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6593c04928a1ed14a905c73d37ffddab, type: 3}
   m_Name: Crowbar
   m_EditorClassIdentifier: 
-  shootDist: 0
-  fireRate: 0
-  shootDmg: 0
-  ammoCur: 0
-  ammoMax: 0
-  model: {fileID: 0}
+  shootDist: 1
+  fireRate: 1
+  shootDmg: 5
+  ammoCur: 1000
+  ammoMax: 1000
+  model: {fileID: 6370665546554449418, guid: 32e91c27a94927f47bb4e05b177bca5c, type: 3}

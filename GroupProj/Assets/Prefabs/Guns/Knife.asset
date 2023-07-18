@@ -17,4 +17,4 @@ MonoBehaviour:
   shootDmg: 2
   ammoCur: 1000
   ammoMax: 1000
-  model: {fileID: 0}
+  model: {fileID: 8094635945714221069, guid: aee8e427db9a3c749b752bbd9da127ad, type: 3}

@@ -7,12 +7,12 @@ public class Door : MonoBehaviour
 
     public bool IsOpen = false;
 
-    [SerializedField] private bool rotateDoor = true;
-    [SerializedField] private float speed = 1f;
+    [SerializeField] private bool rotateDoor = true;
+    [SerializeField] private float speed = 1f;
 
     [Header("-----Rotation Trigs-----")]
-    [SerializedField] private float rotationAmount = 90f;
-    [SerializedField] private float forwardDirection = 0;
+    [SerializeField] private float rotationAmount = 90f;
+    [SerializeField] private float forwardDirection = 0;
 
     private Vector3 startRotation;
     private Vector3 forward;
@@ -37,7 +37,7 @@ public class Door : MonoBehaviour
 
             if (rotateDoor)
             {
-                float dot = Vector3.Dor(forward, (UserPosition - transform.position).normalized);
+                float dot = Vector3.Dot(forward, (UserPosition - transform.position).normalized);
                 AnimationCoroutine = StartCoroutine(DoRotationOpen(dot));
             }
         }
@@ -45,16 +45,16 @@ public class Door : MonoBehaviour
 
    private IEnumerator DoRotationOpen(float forwardAmount)
    {
-        Quarternion startRotation = transform.rotation;
-        Quarternion endRotation;
+        Quaternion startRotation = transform.rotation;
+        Quaternion endRotation;
 
         if(forwardAmount >= forwardDirection)
         {
-            endRotation = Quaterion.Euler(new Vector3(0, startRotation.y - rotationAmount, 0));
+            endRotation = Quaternion.Euler(new Vector3(0, startRotation.y - rotationAmount, 0));
         }
         else
         {
-            endRotation = Quaterion.Euler(new Vector3(0, startRotation.y + rotationAmount, 0));
+            endRotation = Quaternion.Euler(new Vector3(0, startRotation.y + rotationAmount, 0));
         }
 
         IsOpen = true;
@@ -64,8 +64,8 @@ public class Door : MonoBehaviour
         while (time < 1)
         {
             transform.rotation = Quaternion.Slerp(startRotation, endRotation, time);
-            yeild return null;
-            time += time.deltaTime * speed;
+            yield return null;
+            time += Time.deltaTime * speed;
 
         }
 
@@ -77,20 +77,20 @@ public class Door : MonoBehaviour
         {
             if(AnimationCoroutine != null)
             {
-                StopCorountine (AnimationCoroutine);
+                StopCoroutine(AnimationCoroutine);
             }
 
             if (rotateDoor)
             {
-                AnimationCoroutine = StartCorountine(DoRotationClose());
+                AnimationCoroutine = StartCoroutine(DoRotationClose());
             }
         }
     }
 
     private IEnumerator DoRotationClose()
     {
-        Quaterion startRotation = transform.rotation;
-        Quaterion enRotation = Quaternion.fuler(startRotation);
+        Quaternion startRotation = transform.rotation;
+        Quaternion endRotation = Quaternion.Euler(90, 0, 0);
 
         IsOpen = false;
 
@@ -100,7 +100,7 @@ public class Door : MonoBehaviour
         {
             transform.rotation = Quaternion.Slerp(startRotation, endRotation, time);
             yield return null;
-            time += time.deltaTime * speed;
+            time += Time.deltaTime * speed;
 
         }
 

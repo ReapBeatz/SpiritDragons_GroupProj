@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShaderKeywordFilter;
 //using System.Net.Sockets;
 using UnityEngine;
 
@@ -35,6 +36,7 @@ public class playerController : MonoBehaviour, IDamage
     int jumpCount;
     bool isShooting;
     int HPOrig;
+    public int selectedWpn;
     // Start is called before the first frame update
     void Start()
     {
@@ -150,9 +152,37 @@ public class playerController : MonoBehaviour, IDamage
     {
         wpnList.Add(wpnstat);
 
-        shootDamage = wpnstat.shootDamage;
+        shootDamage = wpnstat.shootDmg;
         shootDist = wpnstat.shootDist;
-        shootRate = wpnstat.shootRate;
+        fireRate = wpnstat.fireRate;
+
+        wpn.GetComponent<MeshFilter>().mesh = wpnstat.model.GetComponent<MeshFilter>().sharedMesh;
+        wpn.GetComponent<MeshRenderer>().material = wpnstat.model.GetComponent<MeshRenderer>().sharedMaterial;
+        selectedWpn = wpnList.Count - 1;
+        updatePlayerUI();
+    }
+
+    void scrollWpns()
+    {
+        if (Input.GetAxis("Mouse ScrollWheel") > 0 && selectedWpn < wpnList.Count - 1) 
+        {
+            selectedWpn++;
+            changeWpnStats();
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0 && selectedWpn > 0)
+        {
+            selectedWpn--;
+            changeWpnStats();
+        }
+    }
+
+    void changeWpnStats()
+    {
+        shootDamage = wpnList[selectedWpn].shootDmg;
+        shootDist = wpnList[selectedWpn].shootDist;
+        fireRate = wpnList[selectedWpn].fireRate;
+        wpn.GetComponent<MeshFilter>().mesh = wpnList[selectedWpn].model.GetComponent<MeshFilter>().sharedMesh;
+        wpn.GetComponent<MeshRenderer>().material = wpnList[selectedWpn].model.GetComponent<MeshRenderer>().sharedMaterial;
     }
 
 }

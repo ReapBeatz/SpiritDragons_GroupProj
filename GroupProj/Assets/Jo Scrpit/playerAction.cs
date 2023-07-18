@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 public class playerAction : MonoBehaviour
 {
     [SerializeField] private TextMeshPro useText;
@@ -12,16 +12,18 @@ public class playerAction : MonoBehaviour
 
     [SerializeField] private LayerMask useLayer;
 
+    [SerializeField] Door door;
 
     public void onUse()
     {
-        if (Physics.Raycast(Camera.position, Camera.forward, RaycastHit Hit, MaxUseDist, useLayer))
+        RaycastHit hit;
+        if (Physics.Raycast(Camera.position, Camera.forward, out hit, MaxUseDist, useLayer))
         {
             if (hit.collider.TryGetComponent<Door>(out Door door))
             {
                 if (door.IsOpen)
                 {
-                    door.close();
+                    door.Close();
                 }
                 else
                 {
@@ -42,7 +44,8 @@ public class playerAction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Physics.Raycast(Camera.position, Camera.forward, RaycastHit Hit, MaxUseDist, useLayer)
+        RaycastHit hit;
+        if (Physics.Raycast(Camera.position, Camera.forward, out hit, MaxUseDist, useLayer)
             && hit.collider.TryGetComponent<Door>(out Door door))
         {
             if(door.IsOpen)
@@ -54,14 +57,14 @@ public class playerAction : MonoBehaviour
                 useText.SetText("Open E") ;
             }
 
-            useText.GameObject.SetActive(true);
+            useText.gameObject.SetActive(true);
             useText.transform.position = hit.point - (hit.point - Camera.position.normalized * 0.01f); 
-            useText.transform.rotation = Quaterion.LookRotation((hit.point - Camera.position).normalized);
+            useText.transform.rotation = Quaternion.LookRotation((hit.point - Camera.position).normalized);
 
         }
         else
         {
-            useText.GameObject.SetActive(false);
+            useText.gameObject.SetActive(false);
         }
     }
 }

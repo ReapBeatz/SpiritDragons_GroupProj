@@ -1069,8 +1069,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8498596410524434497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1604743, y: 2.83, z: -11.236221}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -3.1604743, y: 2.452, z: -11.236221}
+  m_LocalScale: {x: 0.51386, y: 0.51386, z: 0.51386}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8139460046968502209}
@@ -1090,9 +1090,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fde8d6476a358d24c95e0dd011eb946d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  model: {fileID: 5622482753754285096, guid: 697fa1d3019e19242901a23cf95ea8cc, type: 3}
-  agent: {fileID: 5521480082781799825, guid: 697fa1d3019e19242901a23cf95ea8cc, type: 3}
-  headPos: {fileID: 8960911691692924945, guid: 697fa1d3019e19242901a23cf95ea8cc, type: 3}
+  model: {fileID: 7181595619022460257}
+  agent: {fileID: -243739360177762430}
+  headPos: {fileID: 3087156383650132931}
   hp: 4
   viewAngle: 90
   playerFaceSpeed: 5
@@ -1109,7 +1109,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 8498596410524434497}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.03
+  m_Radius: 0.66
   m_Speed: 4
   m_Acceleration: 50
   avoidancePriority: 50
@@ -1118,8 +1118,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 0
   m_AutoRepath: 1
-  m_Height: 0.19
-  m_BaseOffset: 0.17
+  m_Height: 4
+  m_BaseOffset: 3.25
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!136 &2420543778871564425
@@ -1141,10 +1141,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.02023494
-  m_Height: 0.17439553
+  m_Radius: 0.7336744
+  m_Height: 7.09484
   m_Direction: 0
-  m_Center: {x: 0, y: -0.0019949323, z: -0.021025624}
+  m_Center: {x: -0.10374776, y: -0.022951256, z: 0.07865224}
 --- !u!135 &990694036451890262
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1164,7 +1164,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 10
   m_Center: {x: 0, y: -0.18, z: 0.01904483}
 --- !u!1 &9121517077036014246
 GameObject:

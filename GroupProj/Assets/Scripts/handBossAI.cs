@@ -56,8 +56,8 @@ public class handBossAI : MonoBehaviour, IDamage
         //Quaternion rot = Quaternion.LookRotation(new Vector3(playerLookDir.transform.position.x, playerLookDir.transform.position.y, playerLookDir.transform.position.z));
         //EyeLPos.transform.rotation = Quaternion.Lerp(EyeLPos.transform.rotation, rot, Time.deltaTime * playerFaceSpeed);
         //EyeRPos.transform.rotation = Quaternion.Lerp(EyeRPos.transform.rotation, rot, Time.deltaTime * playerFaceSpeed);
-        EyeLPos.transform.LookAt(playerLookDir.transform.position);
-        EyeRPos.transform.LookAt(playerLookDir.transform.position);
+        EyeLPos.transform.LookAt(playerLookDir.transform.position, transform.up);
+        EyeRPos.transform.LookAt(playerLookDir.transform.position, transform.up);
     }
 
 

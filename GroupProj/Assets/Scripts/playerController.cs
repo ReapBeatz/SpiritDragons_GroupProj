@@ -21,6 +21,10 @@ public class playerController : MonoBehaviour, IDamage
     [Range(1, 3)][SerializeField] int jumpsMax;
 
     [Header("-----Gun Stats-----")]
+    [SerializeField] List<wpnStats> wpnList = new List<wpnStats>();
+    [SerializeField] GameObject wpn;
+    
+
     [SerializeField] float fireRate;
     [SerializeField] int shootDamage;
     [SerializeField] float shootDist;
@@ -141,4 +145,14 @@ public class playerController : MonoBehaviour, IDamage
         HP = HPOrig;
         updatePlayerUI();
     }
+
+    public void wpnPickUp(wpnStats wpnstat)
+    {
+        wpnList.Add(wpnstat);
+
+        shootDamage = wpnstat.shootDamage;
+        shootDist = wpnstat.shootDist;
+        shootRate = wpnstat.shootRate;
+    }
+
 }

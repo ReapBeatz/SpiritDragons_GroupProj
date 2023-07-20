@@ -1054,10 +1054,9 @@ GameObject:
   - component: {fileID: -243739360177762430}
   - component: {fileID: 2420543778871564425}
   - component: {fileID: 990694036451890262}
-  - component: {fileID: 8087683148404423160}
-  m_Layer: 7
-  m_Name: BatTest
-  m_TagString: Bat
+  m_Layer: 0
+  m_Name: Bat
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1070,14 +1069,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8498596410524434497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1604743, y: 2.83, z: -11.236221}
-  m_LocalScale: {x: 0.35476, y: 0.35476, z: 0.35476}
+  m_LocalPosition: {x: -3.1604743, y: 2.452, z: -11.236221}
+  m_LocalScale: {x: 0.51386, y: 0.51386, z: 0.51386}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8139460046968502209}
   - {fileID: 242004518459417765}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &-5424780778358497554
 MonoBehaviour:
@@ -1094,8 +1093,7 @@ MonoBehaviour:
   model: {fileID: 7181595619022460257}
   agent: {fileID: -243739360177762430}
   headPos: {fileID: 3087156383650132931}
-  animator: {fileID: 0}
-  hp: 6
+  hp: 4
   viewAngle: 90
   playerFaceSpeed: 5
   roamTimer: 3
@@ -1111,8 +1109,8 @@ NavMeshAgent:
   m_GameObject: {fileID: 8498596410524434497}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.86
-  m_Speed: 8
+  m_Radius: 0.66
+  m_Speed: 4
   m_Acceleration: 50
   avoidancePriority: 50
   m_AngularSpeed: 600
@@ -1120,8 +1118,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 0
   m_AutoRepath: 1
-  m_Height: 3.71
-  m_BaseOffset: 2.98
+  m_Height: 4
+  m_BaseOffset: 3.25
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!136 &2420543778871564425
@@ -1143,10 +1141,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.78
-  m_Height: 7.0427427
+  m_Radius: 0.7336744
+  m_Height: 7.09484
   m_Direction: 0
-  m_Center: {x: 0.12412034, y: -0.0019949141, z: -0.021025607}
+  m_Center: {x: -0.10374776, y: -0.022951256, z: 0.07865224}
 --- !u!135 &990694036451890262
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1166,29 +1164,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 15
+  m_Radius: 10
   m_Center: {x: 0, y: -0.18, z: 0.01904483}
---- !u!95 &8087683148404423160
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8498596410524434497}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ea3e796fd8d1e4d4daf579974cab8c80, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9121517077036014246
 GameObject:
   m_ObjectHideFlags: 0

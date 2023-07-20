@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:GroupProj/Assets/Models/ModelImageTextures/Materials.meta
+guid: a03ed6d14ca59264b83909b34da045f4
+folderAsset: yes
+DefaultImporter:
+========
 guid: 3f4c323e434d9354caaa74f746d92dff
 PrefabImporter:
+>>>>>>>> f2fbcfe360b722fe82a8a73a66c44c4eae895145:GroupProj/Assets/Prefabs/Bed.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

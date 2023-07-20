@@ -20,10 +20,10 @@ public class playerController : MonoBehaviour, IDamage
     [SerializeField] float gravityValue;
     [Range(1, 3)][SerializeField] int jumpsMax;
 
-    [Header("-----Gun Stats-----")]
-    [SerializeField] float fireRate;
-    [SerializeField] int shootDamage;
-    [SerializeField] float shootDist;
+    //[Header("-----Gun Stats-----")]
+    //[SerializeField] float fireRate;
+    //[SerializeField] int shootDamage;
+    //[SerializeField] float shootDist;
 
     Vector3 move;
     private Vector3 playerVelocity;
@@ -46,10 +46,10 @@ public class playerController : MonoBehaviour, IDamage
         if (gameManager.instance.activeMenu == null)
         {
             movement();
-            if (Input.GetButton("Shoot") && !isShooting)
-            {
-                StartCoroutine(shoot());
-            }
+            //if (Input.GetButton("Shoot") && !isShooting)
+            //{
+            //    StartCoroutine(shoot());
+            //}
             if (Input.GetKey(KeyCode.LeftShift) && sprintCharge > 0)
             {
                 currentPlayerSpeed = sprintSpeed;
@@ -97,23 +97,23 @@ public class playerController : MonoBehaviour, IDamage
         controller.Move(playerVelocity * Time.deltaTime);
     }
 
-    IEnumerator shoot()
-    {
-        isShooting = true;
-
-        RaycastHit hit;
-        if (Physics.Raycast(Camera.main.ViewportPointToRay(new Vector2(0.5f, 0.5f)), out hit, shootDist))
-        {
-            IDamage damageable = hit.collider.GetComponent<IDamage>();
-            if (damageable != null)
-            {
-                damageable.takeDamage(shootDamage);
-            }
-        }
-
-        yield return new WaitForSeconds(fireRate);
-        isShooting = false;
-    }
+    //IEnumerator shoot()
+    //{
+    //    isShooting = true;
+    //
+    //    RaycastHit hit;
+    //    if (Physics.Raycast(Camera.main.ViewportPointToRay(new Vector2(0.5f, 0.5f)), out hit, shootDist))
+    //    {
+    //        IDamage damageable = hit.collider.GetComponent<IDamage>();
+    //        if (damageable != null)
+    //        {
+    //            damageable.takeDamage(shootDamage);
+    //        }
+    //    }
+    //
+    //    yield return new WaitForSeconds(fireRate);
+    //    isShooting = false;
+    //}
 
     public void takeDamage(int amount)
     {

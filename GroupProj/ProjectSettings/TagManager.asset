@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Player Spawn Pos
+  - Bat
+  - Chompy
+  - KnifePickup
   layers:
   - Default
   - TransparentFX

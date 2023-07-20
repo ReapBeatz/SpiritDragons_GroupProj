@@ -35,7 +35,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -17.325, y: 2.167, z: -11.558}
+        value: {x: -0.711, y: 2.5, z: -6.628}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -51,7 +51,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 30.793, y: 3.484, z: 3.865}
+        value: {x: -1.986, y: 0.226, z: 1.105}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -67,7 +67,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 67.536, y: 8.77, z: 10.728}
+        value: {x: 87.668, y: 131.474, z: 132.846}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -78,54 +78,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 6.465, y: -272.081, z: -85.811}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -89.941, y: 0, z: -0.844}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: -90, z: 90}
-        inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -141,14 +93,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
-  m_PositionCurves:
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.0000000062573235, y: 0.0019760076, z: -0.00000013306273}
+        value: {x: 0, y: -90, z: 90}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -158,13 +109,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.000000012849343, y: 0.008048993, z: -0.00000006629853}
+        value: {x: -89.98, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -174,25 +125,47 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.000000011503289, y: 0.0014551437, z: -0.000000011175873}
+        value: {x: 104.468, y: -40.397003, z: -45.04602}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
+  m_PositionCurves: []
   m_ScaleCurves: []
-  m_FloatCurves: []
+  m_FloatCurves:
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver
+    classID: 1
+    script: {fileID: 0}
+    flags: 0
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -202,28 +175,10 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1628630057
-      attribute: 1
+      path: 36648729
+      attribute: 2086281974
       script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 2311377327
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 200534914
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
+      typeID: 1
       customType: 0
       isPPtrCurve: 0
       isIntCurve: 0
@@ -265,7 +220,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2864625197
+      path: 3466798846
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -274,7 +229,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 601513864
+      path: 4265632443
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -283,7 +238,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3517574267
+      path: 2411991923
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -292,7 +247,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 911195651
+      path: 4275122433
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -391,7 +346,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -17.325
+        value: -0.711
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -412,7 +367,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 2.167
+        value: 2.5
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -433,7 +388,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -11.558
+        value: -6.628
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -454,7 +409,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 30.793
+        value: -1.986
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -475,7 +430,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 3.484
+        value: 0.226
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -496,7 +451,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 3.865
+        value: 1.105
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -517,7 +472,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 67.536
+        value: 87.668
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -538,7 +493,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 8.77
+        value: 131.474
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -559,7 +514,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 10.728
+        value: 132.846
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -571,195 +526,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
-    classID: 4
-    script: {fileID: 0}
-    flags: 16
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 6.465
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -272.081
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -85.811
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -89.941
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
-    classID: 4
-    script: {fileID: 0}
-    flags: 16
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
-    classID: 4
-    script: {fileID: 0}
-    flags: 16
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.844
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
-    classID: 4
-    script: {fileID: 0}
-    flags: 16
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
-    classID: 4
-    script: {fileID: 0}
-    flags: 16
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -90
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
-    classID: 4
-    script: {fileID: 0}
-    flags: 16
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 90
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: localEulerAnglesRaw.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -780,7 +546,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -801,7 +567,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -822,7 +588,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
     classID: 4
     script: {fileID: 0}
     flags: 16
@@ -832,7 +598,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.0000000062573235
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -842,9 +608,135 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid
+    attribute: localEulerAnglesRaw.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
     classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 90
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -89.98
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
+    classID: 4
+    script: {fileID: 0}
+    flags: 16
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver
+    classID: 1
     script: {fileID: 0}
     flags: 0
   - serializedVersion: 2
@@ -853,168 +745,63 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.0019760076
+        value: 104.468
         inSlope: 0
         outSlope: 0
         tangentMode: 136
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid
+    attribute: localEulerAnglesRaw.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
     classID: 4
     script: {fileID: 0}
-    flags: 0
+    flags: 16
   - serializedVersion: 2
     curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.00000013306273
+        value: -40.397003
         inSlope: 0
         outSlope: 0
         tangentMode: 136
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid
+    attribute: localEulerAnglesRaw.y
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
     classID: 4
     script: {fileID: 0}
-    flags: 0
+    flags: 16
   - serializedVersion: 2
     curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.000000012849343
+        value: -45.04602
         inSlope: 0
         outSlope: 0
         tangentMode: 136
         weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
+    attribute: localEulerAnglesRaw.z
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
     classID: 4
     script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.008048993
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.00000006629853
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.000000011503289
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.0014551437
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.000000011175873
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalPosition.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
+    flags: 16
   m_EulerEditorCurves:
   - serializedVersion: 2
     curve:
@@ -1023,43 +810,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm
     classID: 4
     script: {fileID: 0}
@@ -1083,7 +834,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
+    attribute: m_LocalEulerAngles.z
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm
     classID: 4
     script: {fileID: 0}
@@ -1095,8 +846,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
+    attribute: m_LocalEulerAngles.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1108,19 +859,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Hammer
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1132,19 +871,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1156,18 +883,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Mag
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid
     classID: 4
     script: {fileID: 0}
@@ -1191,7 +906,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
+    attribute: m_LocalEulerAngles.z
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid
     classID: 4
     script: {fileID: 0}
@@ -1203,7 +918,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
+    attribute: m_LocalEulerAngles.x
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
     classID: 4
     script: {fileID: 0}
@@ -1227,7 +942,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
+    attribute: m_LocalEulerAngles.z
     path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/IndexFingerBase/IFBot/IFMid/IFTop
     classID: 4
     script: {fileID: 0}
@@ -1239,8 +954,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
+    attribute: m_LocalEulerAngles.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1252,43 +967,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1300,7 +979,115 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/Revolver/Trigger
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Hammer
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Mag
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep/ForeArm/WeaponHolder/Revolver/Trigger
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Main Camera/ArmsHandsWithRig /Pivot/RightArm/Bicep
     classID: 4
     script: {fileID: 0}
     flags: 0

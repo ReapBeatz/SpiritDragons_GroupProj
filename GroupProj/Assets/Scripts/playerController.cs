@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.ShaderKeywordFilter;
 //using System.Net.Sockets;
 using UnityEngine;
 
@@ -21,6 +22,10 @@ public class playerController : MonoBehaviour, IDamage
     [Range(1, 3)][SerializeField] int jumpsMax;
 
     [Header("-----Gun Stats-----")]
+    [SerializeField] List<wpnStats> wpnList = new List<wpnStats>();
+    [SerializeField] GameObject wpn;
+    
+
     [SerializeField] float fireRate;
     [SerializeField] int shootDamage;
     [SerializeField] float shootDist;
@@ -31,6 +36,7 @@ public class playerController : MonoBehaviour, IDamage
     int jumpCount;
     bool isShooting;
     int HPOrig;
+    public int selectedWpn;
     // Start is called before the first frame update
     void Start()
     {
@@ -141,4 +147,42 @@ public class playerController : MonoBehaviour, IDamage
         HP = HPOrig;
         updatePlayerUI();
     }
+
+    public void wpnPickUp(wpnStats wpnstat)
+    {
+        wpnList.Add(wpnstat);
+
+        shootDamage = wpnstat.shootDmg;
+        shootDist = wpnstat.shootDist;
+        fireRate = wpnstat.fireRate;
+
+        wpn.GetComponent<MeshFilter>().mesh = wpnstat.model.GetComponent<MeshFilter>().sharedMesh;
+        wpn.GetComponent<MeshRenderer>().material = wpnstat.model.GetComponent<MeshRenderer>().sharedMaterial;
+        selectedWpn = wpnList.Count - 1;
+        updatePlayerUI();
+    }
+
+    void scrollWpns()
+    {
+        if (Input.GetAxis("Mouse ScrollWheel") > 0 && selectedWpn < wpnList.Count - 1) 
+        {
+            selectedWpn++;
+            changeWpnStats();
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0 && selectedWpn > 0)
+        {
+            selectedWpn--;
+            changeWpnStats();
+        }
+    }
+
+    void changeWpnStats()
+    {
+        shootDamage = wpnList[selectedWpn].shootDmg;
+        shootDist = wpnList[selectedWpn].shootDist;
+        fireRate = wpnList[selectedWpn].fireRate;
+        wpn.GetComponent<MeshFilter>().mesh = wpnList[selectedWpn].model.GetComponent<MeshFilter>().sharedMesh;
+        wpn.GetComponent<MeshRenderer>().material = wpnList[selectedWpn].model.GetComponent<MeshRenderer>().sharedMaterial;
+    }
+
 }

@@ -22,8 +22,8 @@ public class revolverWeapon : MonoBehaviour
     bool isShooting;
     //private bool overcharged = false;
 
-    [SerializeField] Transform muzzle;
-    [SerializeField] Camera fpsCam;
+    //[SerializeField] Transform muzzle;
+    //[SerializeField] Camera fpsCam;
     //[SerializeField] ParticleSystem muzzleFlash;
     //[SerializeField] GameObject impactEffect;
     //[SerializeField] float inaccuracyDistance = 5f;

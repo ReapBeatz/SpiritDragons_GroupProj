@@ -5,9 +5,10 @@ using UnityEngine;
 public class knifeWeapon : MonoBehaviour
 {
     //[SerializeField] Impact impactScript;
-    [SerializeField] knifePickup kPickup;
+    //[SerializeField] knifePickup kPickup;
     [SerializeField] Animator animator;
-    [SerializeField] MeshFilter meshFilter;
+    //[SerializeField] MeshFilter currMeshFilter;
+    //[SerializeField] MeshFilter updateMeshFilter;
 
     [SerializeField] int damage;
     [SerializeField] float range;
@@ -25,8 +26,8 @@ public class knifeWeapon : MonoBehaviour
     bool isShooting;
     //private bool overcharged = false;
 
-    [SerializeField] Transform muzzle;
-    [SerializeField] Camera fpsCam;
+    //[SerializeField] Transform muzzle;
+    //[SerializeField] Camera fpsCam;
     //[SerializeField] ParticleSystem muzzleFlash;
     //[SerializeField] GameObject impactEffect;
     //[SerializeField] float inaccuracyDistance = 5f;
@@ -37,9 +38,10 @@ public class knifeWeapon : MonoBehaviour
     void Start()
     {
         animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
-        kPickup = GameObject.FindGameObjectWithTag("KnifePickup").GetComponent<knifePickup>();
+        //kPickup = GameObject.FindGameObjectWithTag("KnifePickup").GetComponent<knifePickup>();
+        
     }
-
+    
     private void OnEnable()
     {
         //animator.enabled = false;
@@ -58,9 +60,10 @@ public class knifeWeapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (kPickup.hasPickedUpK)
-        {
-            meshFilter.mesh = kPickup.model.GetComponent<MeshFilter>().sharedMesh;
+        //if (kPickup.hasPickedUpK)
+        //{
+            //currMeshFilter.mesh = updateMeshFilter.sharedMesh;
+            gameObject.SetActive(true);
             //if (isReloading)
             //
             //    return;
@@ -103,7 +106,7 @@ public class knifeWeapon : MonoBehaviour
             //{
             //    overcharged = false;
             //}
-        }
+        //}
     }
 
     //IEnumerator Reload()

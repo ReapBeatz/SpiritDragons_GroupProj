@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class knifePickup : MonoBehaviour
 {
-    public  GameObject model;
     public bool hasPickedUpK;
     // Start is called before the first frame update
     void Start()

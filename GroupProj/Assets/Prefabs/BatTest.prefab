@@ -1054,8 +1054,9 @@ GameObject:
   - component: {fileID: -243739360177762430}
   - component: {fileID: 2420543778871564425}
   - component: {fileID: 990694036451890262}
+  - component: {fileID: 4789184837475234255}
   m_Layer: 0
-  m_Name: Bat
+  m_Name: BatTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1093,6 +1094,7 @@ MonoBehaviour:
   model: {fileID: 7181595619022460257}
   agent: {fileID: -243739360177762430}
   headPos: {fileID: 3087156383650132931}
+  animator: {fileID: 4789184837475234255}
   hp: 4
   viewAngle: 90
   playerFaceSpeed: 5
@@ -1166,6 +1168,27 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 10
   m_Center: {x: 0, y: -0.18, z: 0.01904483}
+--- !u!95 &4789184837475234255
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8498596410524434497}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9121517077036014246
 GameObject:
   m_ObjectHideFlags: 0

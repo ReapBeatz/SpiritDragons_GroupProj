@@ -168,7 +168,7 @@ public class meleeAI : MonoBehaviour, IDamage
                 GetComponent<CapsuleCollider>().enabled = false;
             }
             agent.enabled = false;
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
         else
         {

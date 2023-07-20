@@ -65,7 +65,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/Body/LeftThigh
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -99,7 +99,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -151,7 +151,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/RightHeight
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -185,7 +185,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -237,7 +237,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/LeftShoulder
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -271,7 +271,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder/LBot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -332,7 +332,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot/LMid
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -366,7 +366,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -418,7 +418,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/RightShoulder
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -452,7 +452,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder/RBot
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -513,7 +513,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot/RMid
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -547,7 +547,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
@@ -560,7 +560,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 4160331041
+      path: 3615239069
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -569,7 +569,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3162249344
+      path: 3825919909
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -578,7 +578,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2231735639
+      path: 4017570527
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -587,7 +587,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 227765817
+      path: 942801518
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -596,7 +596,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 4255311901
+      path: 468362393
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -605,7 +605,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1647779764
+      path: 2168350321
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -614,7 +614,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1224855644
+      path: 71418689
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -623,7 +623,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1986669917
+      path: 2583378583
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -632,7 +632,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1306387566
+      path: 2817452827
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -641,7 +641,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 2638060394
+      path: 1993385004
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -650,7 +650,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 864708608
+      path: 1354843338
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -659,7 +659,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 3677957203
+      path: 2691143402
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -742,7 +742,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/Body/LeftThigh
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -799,7 +799,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/Body/LeftThigh
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -856,7 +856,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/Body/LeftThigh
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -895,7 +895,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -934,7 +934,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -973,7 +973,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1030,7 +1030,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/RightHeight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1087,7 +1087,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/RightHeight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1144,7 +1144,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/RightHeight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1183,7 +1183,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1222,7 +1222,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1261,7 +1261,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1318,7 +1318,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/LeftShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1375,7 +1375,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/LeftShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1432,7 +1432,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/LeftShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1471,7 +1471,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder/LBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1510,7 +1510,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder/LBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1549,7 +1549,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder/LBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1615,7 +1615,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot/LMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1681,7 +1681,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot/LMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1747,7 +1747,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot/LMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1786,7 +1786,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1825,7 +1825,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1864,7 +1864,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1921,7 +1921,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/RightShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1978,7 +1978,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/RightShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2035,7 +2035,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/RightShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2074,7 +2074,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder/RBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2113,7 +2113,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder/RBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2152,7 +2152,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder/RBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2218,7 +2218,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot/RMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2284,7 +2284,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot/RMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2350,7 +2350,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot/RMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2389,7 +2389,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2428,7 +2428,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2467,7 +2467,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2480,7 +2480,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2492,7 +2492,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2504,7 +2504,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/RightShoulder
+    path: Armature/Base/LeftShoulder/LBot/LMid/LTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2516,7 +2516,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2528,7 +2528,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2540,7 +2540,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid
+    path: Armature/Base/LeftShoulder/LBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2552,7 +2552,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2564,7 +2564,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2576,7 +2576,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/Body/RightHeight/RightLeg/RightHeel
+    path: Armature/Base/Body/RightHeight
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2588,7 +2588,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2600,7 +2600,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2612,7 +2612,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/LeftShoulder
+    path: Armature/Base/Body/RightHeight/RightLeg/RightHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2624,7 +2624,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2636,7 +2636,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2648,7 +2648,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
+    path: Armature/Base/Body/LeftThigh
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2660,7 +2660,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2672,7 +2672,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2684,7 +2684,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/LeftShoulder/LBot
+    path: Armature/Base/LeftShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2696,7 +2696,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2708,7 +2708,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2720,7 +2720,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/Body/RightHeight
+    path: Armature/Base/Body/LeftThigh/LeftLeg/LeftHeel
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2732,7 +2732,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2744,7 +2744,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2756,7 +2756,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/LeftShoulder/LBot/LMid/LTop
+    path: Armature/Base/LeftShoulder/LBot/LMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2768,7 +2768,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/RightShoulder/RBot/RMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2780,7 +2780,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/RightShoulder/RBot/RMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2792,7 +2792,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/Body/LeftThigh
+    path: Armature/Base/RightShoulder/RBot/RMid
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2804,7 +2804,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2816,7 +2816,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2828,7 +2828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid
+    path: Armature/Base/RightShoulder/RBot
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2840,7 +2840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2852,7 +2852,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2864,7 +2864,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/RightShoulder/RBot
+    path: Armature/Base/RightShoulder
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2876,7 +2876,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2888,7 +2888,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -2900,7 +2900,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bat/Armature/Base/RightShoulder/RBot/RMid/RTop
+    path: Armature/Base/RightShoulder/RBot/RMid/RTop
     classID: 4
     script: {fileID: 0}
     flags: 0

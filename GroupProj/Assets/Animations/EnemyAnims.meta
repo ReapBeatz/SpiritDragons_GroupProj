@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:GroupProj/Assets/Jo Scrpit.meta
+guid: 65566789987d6fa4789699b8fc790ad5
+========
 guid: 965e247740557fd45b3c69b0c7cd1969
+>>>>>>>> ed44eaebacba98f3b5bbff60d122be7a3689fdc4:GroupProj/Assets/Animations/EnemyAnims.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

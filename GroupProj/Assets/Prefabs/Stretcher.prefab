@@ -93,6 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4295945902078025324}
+  - component: {fileID: 8745911620697893007}
   m_Layer: 0
   m_Name: Stretcher
   m_TagString: Untagged
@@ -115,8 +116,29 @@ Transform:
   - {fileID: 6119972985062778200}
   - {fileID: 5401846240897931050}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8745911620697893007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6327564518866004208}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.778992, y: 2.938677, z: 2.4319344}
+  m_Center: {x: 0.84740484, y: 0.96933967, z: -0.051288903}
 --- !u!1 &6628421596851245495
 GameObject:
   m_ObjectHideFlags: 0

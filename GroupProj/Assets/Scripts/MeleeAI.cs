@@ -9,8 +9,8 @@ public class meleeAI : MonoBehaviour, IDamage
     [SerializeField] Renderer model;
     [SerializeField] NavMeshAgent agent;
     [SerializeField] Transform headPos;
-   
-
+    [SerializeField] Animator animator;
+ 
 
     [Header("-----Stats-----")]
     [Range(1, 10)][SerializeField] int hp;
@@ -51,16 +51,20 @@ public class meleeAI : MonoBehaviour, IDamage
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(agent.remainingDistance);
+        //Debug.Log(agent.remainingDistance);
         // Very basic enemy movement towards player that doesn't take walls and obstacles into account. Not using NavMesh Agent
+        
         //transform.position = Vector3.MoveTowards(transform.position, player.transform.position, Time.deltaTime);
-        if (playerInRange && !canSeePlayer())
+        if (agent.isActiveAndEnabled)
         {
-            StartCoroutine(roam());
-        }
-        else if (agent.destination != gameManager.instance.player.transform.position)
-        {
-            StartCoroutine(roam());
+            if (playerInRange && !canSeePlayer())
+            {
+                StartCoroutine(roam());
+            }
+            else if (agent.destination != gameManager.instance.player.transform.position)
+            {
+                StartCoroutine(roam());
+            }
         }
     }
 
@@ -92,8 +96,8 @@ public class meleeAI : MonoBehaviour, IDamage
         agent.stoppingDistance = stoppingDistanceOrig;
         playerDir = gameManager.instance.player.transform.position - headPos.position;
         angleToPlayer = Vector3.Angle(new Vector3(playerDir.x, 0, playerDir.z), transform.forward);
-        Debug.Log(angleToPlayer);
-        Debug.DrawRay(headPos.position, playerDir);
+        //Debug.Log(angleToPlayer);
+        //Debug.DrawRay(headPos.position, playerDir);
         RaycastHit hit;
         if (Physics.Raycast(headPos.position, playerDir, out hit))
         {
@@ -126,6 +130,14 @@ public class meleeAI : MonoBehaviour, IDamage
             IDamage damageable = player.GetComponent<IDamage>();
             if (damageable != null)
             {
+                if (this.CompareTag("Bat"))
+                {
+                    animator.SetTrigger("batAttack");
+                }
+                if (this.CompareTag("Chompy"))
+                {
+                    animator.SetTrigger("chompAttack");
+                }
                 lastAttackTime = Time.time;
                 damageable.takeDamage(damage);
             }
@@ -153,13 +165,24 @@ public class meleeAI : MonoBehaviour, IDamage
     public void takeDamage(int amount)
     {
         hp -= amount;
-        agent.SetDestination(gameManager.instance.player.transform.position);
-        StartCoroutine(flashDamage());
         if (hp <= 0)
         {
+            StopAllCoroutines();
             gameManager.instance.updateGameGoal(-1);
+            if (this.CompareTag("Bat"))
+            {
+                animator.SetBool("batDead", true);
+                GetComponent<CapsuleCollider>().enabled = false;
+            }
+            agent.enabled = false;
             Destroy(gameObject);
         }
+        else
+        {
+            agent.SetDestination(gameManager.instance.player.transform.position);
+            StartCoroutine(flashDamage());
+        }
+        
     }
 
     IEnumerator flashDamage()

@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Jonathan_Map/Jonathan_Map.unity
+    path: Assets/Scenes/Jonathan_Map.unity
     guid: 402767e3aade5c64ab0441697422b8d9
   m_configObjects: {}

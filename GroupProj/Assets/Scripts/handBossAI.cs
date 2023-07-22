@@ -8,7 +8,8 @@ public class handBossAI : MonoBehaviour, IDamage
     [Header("-----Components-----")]
     [SerializeField] Renderer model;
     //[SerializeField] NavMeshAgent agent;
-    [SerializeField] Transform eyePos;
+    [SerializeField] Transform pivotPoint;
+    [SerializeField] Animator animator;
 
 
     [Header("-----Stats-----")]
@@ -64,12 +65,12 @@ public class handBossAI : MonoBehaviour, IDamage
     bool canSeePlayer()
     {
         //agent.stoppingDistance = stoppingDistanceOrig;
-        playerDir = gameManager.instance.player.transform.position - eyePos.position;
+        playerDir = gameManager.instance.player.transform.position - pivotPoint.position;
         angleToPlayer = Vector3.Angle(new Vector3(playerDir.x, playerDir.y, playerDir.z), transform.forward);
         Debug.Log(angleToPlayer);
-        Debug.DrawRay(eyePos.position, playerDir);
+        Debug.DrawRay(pivotPoint.position, playerDir);
         RaycastHit hit;
-        if (Physics.Raycast(eyePos.position, playerDir, out hit))
+        if (Physics.Raycast(pivotPoint.position, playerDir, out hit))
         {
             if (hit.collider.CompareTag("Player") && angleToPlayer < viewAngle)
             {
@@ -97,11 +98,16 @@ public class handBossAI : MonoBehaviour, IDamage
     {
         hp -= amount;
         //agent.SetDestination(gameManager.instance.player.transform.position);
-        StartCoroutine(flashDamage());
         if (hp <= 0)
         {
+            StopAllCoroutines();
             gameManager.instance.updateGameGoal(-1);
-            Destroy(gameObject);
+            animator.SetBool("handDead", true);
+            //Destroy(gameObject);
+        }
+        else
+        {
+            StartCoroutine(flashDamage());
         }
     }
 
